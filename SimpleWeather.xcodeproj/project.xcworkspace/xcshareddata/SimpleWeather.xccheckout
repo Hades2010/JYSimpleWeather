@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D578E7FB-A334-4F43-87F9-1C620259E916</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimpleWeather</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67ACEB3CF2E53B73A17F6A22C33DB0165170C489</key>
+		<string>https://github.com/Hades2010/JYSimpleWeather.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SimpleWeather.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67ACEB3CF2E53B73A17F6A22C33DB0165170C489</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Hades2010/JYSimpleWeather.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>67ACEB3CF2E53B73A17F6A22C33DB0165170C489</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67ACEB3CF2E53B73A17F6A22C33DB0165170C489</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JYSimpleWeather</string>
+		</dict>
+	</array>
+</dict>
+</plist>

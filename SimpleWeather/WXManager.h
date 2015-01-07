@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+@import CoreLocation;
+#import <ReactiveCocoa.h>
+#import "WXCondition.h"
+@interface WXManager : NSObject<CLLocationManagerDelegate>
++(instancetype)sharedManager;
 
-@interface WXManager : NSObject
+@property (nonatomic, strong, readonly) CLLocation *currentLocation;
+@property (nonatomic, strong, readonly) WXCondition *currentCondition;
+@property (nonatomic, strong, readonly) NSArray *hourlyForecast;
+@property (nonatomic, strong, readonly) NSArray *dailyForecast;
+
+- (void)findCurrentLocation;
 
 @end
