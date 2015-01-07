@@ -7,7 +7,7 @@
 //
 
 #import "WXCondition.h"
-
+#define MPS_TO_MPH 2.23694f
 @implementation WXCondition
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
@@ -42,6 +42,31 @@
 + (NSValueTransformer *)sunsetJSONTransformer {
     return [self dateJSONTransformer];
 }
+
++ (NSValueTransformer *)conditionDescriptionJSONTransformer {
+    return [MTLValueTransformer reversibleTransformerWithForwardBlock:^(NSArray *values) {
+        return [values firstObject];
+    } reverseBlock:^(NSString *str) {
+        return @[str];
+    }];
+}
+
++ (NSValueTransformer *)conditionJSONTransformer {
+    return [self conditionDescriptionJSONTransformer];
+}
+
++ (NSValueTransformer *)iconJSONTransformer {
+    return [self conditionDescriptionJSONTransformer];
+}
+
++ (NSValueTransformer *)windSpeedJSONTransformer {
+    return [MTLValueTransformer reversibleTransformerWithForwardBlock:^(NSNumber *num) {
+        return @(num.floatValue*MPS_TO_MPH);
+    } reverseBlock:^(NSNumber *speed) {
+        return @(speed.floatValue/MPS_TO_MPH);
+    }];
+}
+
 
 + (NSDictionary *)imageMap {
     static NSDictionary *_imageMap = nil;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18787C0A1A5D3C1B001B7B00 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18787C091A5D3C1B001B7B00 /* WXClient.m */; };
 		1889972F1A5D1B1700F036E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889972E1A5D1B1700F036E7 /* main.m */; };
 		188997321A5D1B1700F036E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188997311A5D1B1700F036E7 /* AppDelegate.m */; };
 		188997351A5D1B1700F036E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188997341A5D1B1700F036E7 /* ViewController.m */; };
@@ -59,6 +60,8 @@
 
 /* Begin PBXFileReference section */
 		03E9A3A7DFEE2069D9B563EB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		18787C081A5D3C1B001B7B00 /* WXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXClient.h; sourceTree = "<group>"; };
+		18787C091A5D3C1B001B7B00 /* WXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXClient.m; sourceTree = "<group>"; };
 		188997291A5D1B1700F036E7 /* SimpleWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1889972D1A5D1B1700F036E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1889972E1A5D1B1700F036E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				188997391A5D1B1700F036E7 /* Images.xcassets */,
 				1889973B1A5D1B1700F036E7 /* LaunchScreen.xib */,
 				1889972C1A5D1B1700F036E7 /* Supporting Files */,
+				18787C081A5D3C1B001B7B00 /* WXClient.h */,
+				18787C091A5D3C1B001B7B00 /* WXClient.m */,
 				188997521A5D1E4500F036E7 /* WXController.h */,
 				188997531A5D1E4500F036E7 /* WXController.m */,
 				188997901A5D30FA00F036E7 /* WXManager.h */,
@@ -413,6 +418,7 @@
 				188997921A5D30FA00F036E7 /* WXManager.m in Sources */,
 				188997981A5D315500F036E7 /* WXDailyForecast.m in Sources */,
 				188997541A5D1E4500F036E7 /* WXController.m in Sources */,
+				18787C0A1A5D3C1B001B7B00 /* WXClient.m in Sources */,
 				188997351A5D1B1700F036E7 /* ViewController.m in Sources */,
 				188997321A5D1B1700F036E7 /* AppDelegate.m in Sources */,
 				188997951A5D312200F036E7 /* WXCondition.m in Sources */,
